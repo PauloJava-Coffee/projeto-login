@@ -4,25 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
     <title>Login</title>
-   
+
 </head>
 
 <body>
     <main>
         <section id="login">
             <div id="imagem">
+                <img src="img/metal.jpg" alt="Metal">
 
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para
-                 fazer as configurações no seu ambiente. </p>
-                 <form action="login.php" method="post">
+                    fazer as configurações no seu ambiente. </p>
+                <form action="login.php" method="post">
+
+                    <div class="form"><input class="texto" type="text" placeholder="Seu e-mail"></div>
+                    <div class="form"><input class="texto" type="text" required placeholder="Sua senha"></div>
+                    <input type="submit" value="Entrar">
+                    <input id="esqueci" type="submit" value="Esqueci a senha">
 
 
-                 </form>
+                </form>
 
 
             </div>
