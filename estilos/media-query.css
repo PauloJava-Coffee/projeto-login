@@ -23,6 +23,19 @@
         width: 30%;
     }
 
+    div#formulario > h1 {
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    div#formulario>p {
+        padding: 8px;
+        font-size: 1em;
+        line-height: 19px;
+        margin-bottom: 78px;
+    }
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -35,16 +48,26 @@
     }
 
     section#login>div#imagem {
-        float: left;
+        float: right;
         height: 100%;
         width: 50%;
         background-position: bottom bottom;
     }
 
     section#login>div#formulario {
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+
+    div#formulario>h1 {
+        margin: 0px;
+    }
+
+    div#formulario>p {
+        padding: 8px;
+        font-size: 1em;
+        line-height: 19px;
     }
 
 }

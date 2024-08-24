@@ -24,19 +24,24 @@
                 <form action="login.php" method="post">
 
                     <div class="form">
-                        <i class="material-icons">vpn_key</i>
-                        <input class="texto" type="text" placeholder="Seu e-mail">
+                        <i class="material-icons">person</i>
+                        <input id="iemail" class="texto" type="email" placeholder="Seu e-mail" required maxlength="30"
+                            autocomplete="email">
+                        <label for="iemail">Email</label>
                     </div>
                     <div class="form">
-                        <input class="texto" type="text" required placeholder="Sua senha">
+                        <i class="material-icons">vpn_key</i>
+                        <input id="isenha" class="texto" type="password" required placeholder="Sua senha" minlength="8"
+                            maxlength="20" autocomplete="current-password">
+                        <label for="isenha">Senha</label>
 
                     </div>
                     <input type="submit" value="Entrar">
-                    <input id="esqueci" type="submit" value="Esqueci a senha">
-                </div>
+                    <a class="botao" href="esqueci.senha">Esqueci a senha <i class="material-icons">mail</i></a>
+            </div>
 
 
-                </form>
+            </form>
 
 
             </div>
